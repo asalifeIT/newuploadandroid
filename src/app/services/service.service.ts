@@ -4,7 +4,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { tap, timeout } from 'rxjs/operators';
 import { ReplaySubject } from 'rxjs';
 import { Platform, ToastController } from '@ionic/angular';
-
 import { catchError } from 'rxjs/operators';
 import { Observable, throwError } from 'rxjs';
 
